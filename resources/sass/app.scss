@@ -1,1 +1,23 @@
 //
+header,footer{
+  padding:50px 0;
+  background:black;
+  p{
+    color: white;
+    font-size:30px;
+    text-align: center;
+  }
+}
+.Container-Employees,.Container-Companies,.Container-Places{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.box-Employees,.box-Companies,.box-Places{
+  padding:10px;
+  background:brown;
+  margin:10px;
+  p{
+    color:white;
+  }
+}
